@@ -20,9 +20,13 @@ if (is.na(number)) {
     print("Input is invalid. Enter a positive three digit number. # digits")
   } else {
     
+  
+    }
+    
+    
     
   }
   
-}
+
   
 
