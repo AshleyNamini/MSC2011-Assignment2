@@ -15,9 +15,14 @@ if (is.na(number)) {
   # check if user input is a positive number
 } else if (number > 0) {
   
-  # check the number of digits is three if the input is a positive number
-  if (nchar(as.character(number)) != 3) {
+  # check if user input is an integer 
+  if (number != round(number)) {
+    print("Input is invalid. Input was not a whole number.")
+    
+    # check the number of digits is three if the input is a positive number
+  } else if (nchar(as.character(number)) != 3) {
     print("Input is invalid. Input was not a 3 digit number.")
+  
   } else {
     # calculate first digit of number given from the user
     digit1 <- floor(number/100)
