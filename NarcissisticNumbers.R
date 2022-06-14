@@ -1,3 +1,5 @@
+# It is helpful and a good idea to add a title to your code. 
+
 # prompt user to enter a three digit number
 number <- readline("Enter a positive three digit number: ")
 
