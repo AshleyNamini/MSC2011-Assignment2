@@ -1,4 +1,6 @@
-# It is helpful and a good idea to add a title to your code. 
+#' It is helpful and a good idea to add a title to your code. Just a simple title which tells what the code will do.
+#' Can also be helpful to describe what your variables are. 
+
 
 # prompt user to enter a three digit number
 number <- readline("Enter a positive three digit number: ")
@@ -43,6 +45,9 @@ if (is.na(number)) {
     }
   }
   
-
+#' Great job! Your code works very well. I like how you have a different output for all of the possible invalid inputs.
+#' Another way of isolating the digits is using the substr(x, n, n) function, where x is the string, and n is 
+#' the digit's position. I used this and found it very easy for isolating the digits. Your comments are helpful for understanding 
+#' your code, and all of your code makes sense. Overall, very well done!
   
 
